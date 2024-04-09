@@ -47,7 +47,7 @@ class Board extends React.Component {
   handleClick(rowIndex, colIndex) {
     const { gameOver, board } = this.state;
     if (gameOver || board[rowIndex][colIndex].clicked) return;
-    if (board[rowIndex][colIndex].word !== this.props.word) return;
+    if (board[rowIndex][colIndex].word !== this.state.playingField) return;
             
            
             this.setState({playingField: this.generateRandomWord()});
