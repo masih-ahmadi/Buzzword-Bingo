@@ -1,0 +1,17 @@
+
+.playing-field{
+padding: 20px;
+
+}
+.word-display{
+color: #f50057
+}
+.bingo-sucess{
+	color: #4caf50
+}
+.board{
+	padding-bottom: 15px;
+}
+.board-btn{
+	margin: 5px;
+}
