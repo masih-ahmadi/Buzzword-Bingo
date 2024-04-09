@@ -133,7 +133,7 @@ class Board extends React.Component {
     return (
       
       <div className="board">
-      <Header  changeTheWord={this.changeTheWord} handleRestart={this.handleRestart}/>
+      <Header  handleRestart={this.handleRestart}/>
         <div className="playing-field">
         
         {this.state.gameOver ? (
