@@ -46,4 +46,11 @@ To run Buzzword Bingo on your local machine, follow these steps:
 3. Start the development server: `npm start`
 4. Open your browser and navigate to `http://localhost:3000` to play the game.
 
+   
+## Screenshots
 
+![Bingo Game Screenshot](./images/Initial.png)
+
+![Bingo Game Screenshot](./images/2.png)
+![Bingo Game Screenshot](./images/3.png)
+![Bingo Game Screenshot](./images/4.png)
